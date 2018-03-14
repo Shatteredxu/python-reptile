@@ -5,6 +5,7 @@ import json
 from lagousql import *
 import random,time
 import pandas as pd
+# 爬取拉钩网数据
 class laGou:
   # 初始化
   def __init__(self):
@@ -35,13 +36,11 @@ class laGou:
       dict=[]
       for v in arr:
         # 储存在数据库中
-        # storageData(v["positionName"],v["workYear"],v["education"],
-        #             v["salary"],v["companyFullName"],v["city"],v["stationname"],
-        #             v["industryField"],v["companySize"]
-        #            )
+        storageData(v["positionName"],v["workYear"],v["education"],
+                    v["salary"],v["companyFullName"],v["city"],v["stationname"],
+                    v["industryField"],v["companySize"]
+                   )
         # 保存在csv文件中
-        # pd.DataFrame(pd.)
-        #   print(v)
         list={"positionName":v["positionName"],"workYear":v["workYear"],"education":v["education"],
               "salary":v["salary"],"companyFullName":v["companyFullName"],"city":v["city"],
               "stationname":v["stationname"], "industryField":v["industryField"],"companySize":v["companySize"]}
@@ -49,9 +48,12 @@ class laGou:
         # 存储到csv文件中去
       data = pd.DataFrame(dict)
       data.to_csv(r'D:\LaGouDataMatlab.csv', header=False, index=False, mode='a+')
+
   def start(self):
     for pn in range(30):
+      # title为需要找的岗位  pn为页数 （要爬取的页数）
       self.loadPage(pn,title='python')
+      # // 随机睡眠时间
       time.sleep(random.randint(2, 5))
 
 if __name__ == "__main__":
