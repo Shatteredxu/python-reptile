@@ -7,3 +7,4 @@ pymysql链接mysql作数据存储，同时存储在csv文件中
 利用pandas 做数据统计分析
 matplotlib生成统计图像，然后存储为文件，
 效果如下
+！[城市分布][https://github.com/Shatteredxu/python-reptile/blob/master/城市分布.jpg]
