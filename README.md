@@ -10,4 +10,4 @@ matplotlib生成统计图像，然后存储为文件，
 ![城市分布](https://github.com/Shatteredxu/python-reptile/blob/master/城市分布.jpg)
 ![经验要求](https://github.com/Shatteredxu/python-reptile/blob/master/经验要求.png)
 ![学历要求](https://github.com/Shatteredxu/python-reptile/blob/master/学历要求.png)
-![职位名称](https://github.com/Shatteredxu/python-reptile/blob/master/职位名称.jpg)
+![职位名称](https://github.com/Shatteredxu/python-reptile/blob/master/职位名称.png)
