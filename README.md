@@ -12,4 +12,7 @@ matplotlib生成统计图像，然后存储为文件，
 ![经验要求](https://github.com/Shatteredxu/python-reptile/blob/master/经验要求.png)
 ![学历要求](https://github.com/Shatteredxu/python-reptile/blob/master/学历要求.png)
 ![职位名称](https://github.com/Shatteredxu/python-reptile/blob/master/职位名称.png)
-lagou.py文件为sql语句文件，通过调用这个文件中的sql语句来实现mysql的存储
+lagou.py文件为sql语句文件，通过调用这个文件中的sql语句来实现mysql的存储，
+以下为表结构以及表中的数据
+![表结构](https://github.com/Shatteredxu/python-reptile/blob/master/表结构.png)
+![存储数据](https://github.com/Shatteredxu/python-reptile/blob/master/存储数据.png)
